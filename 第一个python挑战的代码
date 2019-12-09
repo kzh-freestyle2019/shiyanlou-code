@@ -1,0 +1,58 @@
+shiyanlou:~/ $ cd Code                                               [16:51:43]
+shiyanlou:Code/ $ git clone https://github.com/kzh-freestyle2019/shiyanlou-code
+
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0
+\u5c55\u5f00\u5bf9\u8c61\u4e2d: 100% (6/6), \u5b8c\u6210.
+\u68c0\u67e5\u8fde\u63a5... \u5b8c\u6210\u3002
+shiyanlou:Code/ $ ls                                                 [16:52:35]
+shiyanlou-code
+shiyanlou:Code/ $ cd shiyanlou-code                                  [16:52:40]
+shiyanlou:shiyanlou-code/ (master) $ ls                              [16:52:46]
+jump7  shiyanlou-code
+shiyanlou:shiyanlou-code/ (master) $ git add jump7                   [16:52:47]
+shiyanlou:shiyanlou-code/ (master) $ git commit -m "first chanllage" [16:55:21]
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <shiyanlou@87fa6b86fb17.(none)>) not allowed
+shiyanlou:shiyanlou-code/ (master) $ git config --global user.name "kzh-freestyle2019'
+dquote> 
+dquote> q!
+dquote> git commit -m "first chanllage"
+dquote> 
+shiyanlou:shiyanlou-code/ (master) $                                 [16:57:08]
+shiyanlou:shiyanlou-code/ (master) $ cd ..                           [16:57:09]
+shiyanlou:Code/ $ git config --global user.email "kezhaohui55@gamil.com"
+shiyanlou:Code/ $ git config --global user.name "kzh-freesyle2019"   [16:58:52]
+shiyanlou:Code/ $ git commit -m "first challenge"                    [16:59:09]
+fatal: Not a git repository (or any of the parent directories): .git
+shiyanlou:Code/ $ git add /shiyanlou-code/jump7                      [16:59:26]
+fatal: Not a git repository (or any of the parent directories): .git
+shiyanlou:Code/ $ cd shiyanlou-code                                  [16:59:56]
+shiyanlou:shiyanlou-code/ (master) $ git add jump7                   [17:00:01]
+shiyanlou:shiyanlou-code/ (master) $ git commmit -m "first challenge"
+git\uff1a'commmit' \u4e0d\u662f\u4e00\u4e2a git \u547d\u4ee4\u3002\u53c2\u89c1 'git --help'\u3002
+
+\u60a8\u6307\u7684\u662f\u8fd9\u4e2a\u4e48\uff1f
+	commit
+shiyanlou:shiyanlou-code/ (master) $ git commit -m "first challenge" [17:00:36]
+\u4f4d\u4e8e\u5206\u652f master
+\u60a8\u7684\u5206\u652f\u4e0e\u4e0a\u6e38\u5206\u652f 'origin/master' \u4e00\u81f4\u3002
+\u65e0\u6587\u4ef6\u8981\u63d0\u4ea4\uff0c\u5e72\u51c0\u7684\u5de5\u4f5c\u533a
+shiyanlou:shiyanlou-code/ (master) $ git remote add shiyanlou-code https://github.com/kzh-freestyle2019/shiyanlou-code
+shiyanlou:shiyanlou-code/ (master) $ git push shiyanlou-code master
+Username for 'https://github.com': kzh-freestyle2019
+Password for 'https://kzh-freestyle2019@github.com': 
+Everything up-to-date
+
